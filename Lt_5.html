@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal academic profile page for internship or academic review">
+    <meta name="keywords" content="AIUB, Web Technologies, Profile, Internship, Academic">
+    <meta name="author" content="Shah Jalal Dip">
+    <title>Academic Profile - Shah Jalal Dip</title>
+</head>
+<body>
+    <!-- Semantic Page Layout -->
+    <header>
+        <h1>Shah Jalal Dip - Academic Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header><hr>
+
+    <main>
+        <!-- Biography Section -->
+        <section id="biography">
+            <h2>Biography</h2>
+            <p>
+                I am a Bachelor of Science student in Computer Science and Engineering at 
+                American International University-Bangladesh (AIUB). My interests include 
+                software engineering, web technologies, and academic research.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1">
+                <caption>Academic Background</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BSc in Computer Science and Engineering</td>
+                        <td>AIUB</td>
+                        <td>2027</td>
+                        <td>CGPA 3.84</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary Certificate</td>
+                        <td>Govt. Shamsul Haque College</td>
+                        <td>2022</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+                    <tr>
+                        <td>Secondary School Certificate</td>
+                        <td>Elenga High School</td>
+                        <td>2020</td>
+                        <td>GPA 4.83</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <!-- Advanced Contact Form -->
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX" 
+                       pattern="[0-9]{11}" maxlength="11">
+                <br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Write your message here..." 
+                          required maxlength="500" rows="5" cols="40"></textarea>
+                <br><br>
+
+                <input type="submit" value="Send">
+                <input type="reset" value="Clear">
+            </form>
+        </section>
+    </main>
+<hr>
+    <footer>
+        <p>&copy; 2026 Shah Jalal Dip | All rights reserved.</p>
+    </footer>
+</body>
+</html>
