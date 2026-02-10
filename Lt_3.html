@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tables and semantic HTML5 elements example">
+    <title>Lab Task 03:- Tables and Semantic HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Student Information Portal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#students">Students</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav><hr>
+
+    <main>
+        <!-- Section for Table -->
+        <section id="students">
+            <h2>Student Records</h2>
+            <table border="1">
+                <caption>Student Information Table</caption>
+                <tr>
+                    <th scope="col">Student ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">CGPA</th>
+                </tr>
+                <tr>
+                    <td>23-54777-3</td>
+                    <td>Shah Jalal Dip</td>
+                    <td>CSE</td>
+                    <td>3.84</td>
+                </tr>
+                <tr>
+                    <td>24-55231-1</td>
+                    <td>Fatima</td>
+                    <td>SWE</td>
+                    <td>3.70</td>
+                </tr>
+                <tr>
+                    <td>23-55003-2</td>
+                    <td>Rahim</td>
+                    <td>EEE</td>
+                    <td>3.60</td>
+                </tr>
+                <tr>
+                    <td>23-55004-3</td>
+                    <td>Ayesha</td>
+                    <td>BBA</td>
+                    <td>3.90</td>
+                </tr>
+            </table>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h3>Contact Information</h3>
+            <p>
+                For queries, please reach out to the <i title="Faculty of Science and Technology">FST</i> at the, 
+                Department of Computer Science (CS), American International University-Bangladesh (AIUB).
+            </p>
+        </section>
+    </main><hr>
+
+    <footer>
+        <p>&copy; 2026 American International University-Bangladesh (AIUB)</p>
+    </footer>
+</body>
+</html>

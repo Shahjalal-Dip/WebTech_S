@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML form with input types, fieldset, and legend">
+    <title>Lab Task 04:- HTML Forms, Input Types, Fieldset, and Legend </title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <!-- Basic Form Structure -->
+    <form action="#" method="post">
+        
+        <!--Fieldset and Legend - Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </fieldset>
+
+        <br>
+
+        <!--Fieldset and Legend - Academic Information -->
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option value="">--Select Department--</option>
+                <option value="cs">CSE</option>
+                <option value="se">SWE</option>
+                <option value="it">EEE</option>
+                <option value="cse">LAW</option>
+            </select>
+            <br><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox" id="cplus" name="skills" value="C++">
+            <label for="cplus">C++</label><br>
+            <input type="checkbox" id="java" name="skills" value="Java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="python" name="skills" value="Python">
+            <label for="python">Python</label><br>
+            <input type="checkbox" id="csharp" name="skills" value="C#">
+            <label for="csharp">C#</label><br>
+            <input type="checkbox" id="js" name="skills" value="JavaScript">
+            <label for="js">JavaScript</label>
+        </fieldset>
+        <br>
+        
+        <!-- buttor for submit and reset -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
