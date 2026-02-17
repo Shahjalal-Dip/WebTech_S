@@ -1,0 +1,26 @@
+/* External CSS file */
+body {
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+ul li, ol li {
+    color: darkred;
+    font-size: 18px;
+}
+
+dl dt {
+    font-weight: bold;
+    color: navy;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+dl dd {
+    margin-left: 20px;
+    color: gray;
+}
+

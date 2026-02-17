@@ -1,0 +1,70 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* here is Part A: Box Model Demonstration */
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 15px;
+    border: 3px solid darkblue;
+    background-color: lightgray;
+}
+
+/* Different spacing for each box */
+.box1 {
+    background-color: lightcoral;
+}
+
+.box2 {
+    background-color: lightgreen;
+    box-sizing: border-box; /* here implement part B: Box Sizing */
+    padding: 30px;
+    border: 5px solid green;
+}
+
+.box3 {
+    background-color: lightblue;
+    margin: 40px;
+    padding: 25px;
+    border: 4px dashed navy;
+}
+
+/* here is Part C: Display Properties */
+.block-example {
+    display: block;
+    background-color: beige;
+    margin: 10px 0;
+}
+
+.inline-example {
+    display: inline;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.inline-block-example {
+    display: inline-block;
+    background-color: pink;
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+}
+
+.none-example {
+    display: none; /* element removed completely */
+}
+
+/*  here is Part D: Visibility vs Display */
+.visibility-hidden {
+    visibility: hidden; /* invisible but space remains */
+    background-color: lightyellow;
+}
+
+.display-none {
+    display: none; /* element removed completely */
+    background-color: lightgreen;
+}
