@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab Task 02</title>
+</head>
+<body>
+  <script>
+    // Part A: Function
+    function calculateSum(a, b) {
+      return a + b;
+    }
+    document.write("Sum of 5 and 7 = " + calculateSum(5, 7) + "<br>");
+
+    // Part B: Loops
+    document.write("<h4>Numbers 1 to 10:</h4>");
+    for (let i = 1; i <= 10; i++) {
+      document.write(i + " ");
+    }
+
+    document.write("<h4>Even numbers 1 to 20:</h4>");
+    let j = 2;
+    while (j <= 20) {
+      document.write(j + " ");
+      j += 2;
+    }
+
+    // Part C: String Operations
+    let fullName = "Shahjalal Dip";
+    document.write("<h4>String Operations:</h4>");
+    document.write("Uppercase: " + fullName.toUpperCase() + "<br>");
+    document.write("Length: " + fullName.length + "<br>");
+    document.write("First Name: " + fullName.split(" ")[0] + "<br>");
+
+    // Part D: Function with User Input
+    function checkStringLength() {
+      let userInput = prompt("Enter a string:");
+      if (userInput.length > 5) {
+        document.write(`The string is longer than 5 characters that is ${userInput.length} characters long.<br>`);
+      } else {
+        document.write(`The string is ${userInput.length} characters long.<br>`);
+      }
+    }
+    checkStringLength();
+  </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab Task 03</title>
+</head>
+<body>
+  <script>
+    // Part A: Arrays
+    let courses = ["CSE101", "CSE102", "CSE103", "CSE104", "CSE105"];
+    document.write("<h4>Courses:</h4>");
+    for (let i = 0; i < courses.length; i++) {
+      document.write(courses[i] + "<br>");
+    }
+    courses.push("CSE106");
+    document.write("<h4>Updated Courses:</h4>" + courses.join(", ") + "<br>");
+
+    // Part B: Array Operations
+    document.write("Length: " + courses.length + "<br>");
+    courses.pop();
+    courses.unshift("CSE100");
+    document.write("Final Array: " + courses.join(", ") + "<br>");
+
+    // Part C: Basic Object
+    let student = {
+      name: "Shah Jalal",
+      id: "23-54777-3",
+      department: "CSE",
+      cgpa: 3.84
+    };
+    document.write("<h4>Student Object:</h4>");
+    for (let key in student) {
+      document.write(key + ": " + student[key] + "<br>");
+    }
+
+    // Part D: Array of Objects
+    let students = [
+      {
+      name: "Shah Jalal",
+      id: "23-54777-3",
+      department: "CSE",
+      cgpa: 3.84
+      },
+      {name: "Ayesha", id: "23-54778-3", department: "CSE", cgpa: 3.90},
+      {name: "Rahim", id: "23-54779-3", department: "CSE", cgpa: 3.60}
+    ];
+    document.write("<h4>Array of Students:</h4>");
+    students.forEach(s => {
+      document.write(`${s.name} (${s.id}) - ${s.department}, CGPA: ${s.cgpa}<br>`);
+    });
+  </script>
+</body>
+</html>

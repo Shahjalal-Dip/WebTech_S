@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab Task 01</title>
+</head>
+<body>
+  <script>
+    // Part A: Output
+    alert("Welcome to Web Technologies Lab!");
+    console.log("Welcome to Web Technologies Lab!");
+    document.write("<h3>Welcome to Web Technologies Lab!</h3>");
+
+    // Part B: Variables and Operations
+    let studentName = "Shah Jalal";
+    let studentAge = 22;
+    document.write("Name: " + studentName + "<br>");
+    document.write("Age: " + studentAge + "<br>");
+    document.write("Age + 1 = " + (studentAge + 1) + "<br>");
+
+    // Part C: User Input
+    let num1 = Number(prompt("Enter first number:"));
+    let num2 = Number(prompt("Enter second number:"));
+    document.write("Sum = " + (num1 + num2) + "<br>");
+    document.write("Difference = " + (num1 - num2) + "<br>");
+    document.write("Product = " + (num1 * num2) + "<br>");
+
+    // Part D: Conditional
+    let num = Number(prompt("Enter a number to check even/odd:"));
+    if (num % 2 === 0) {
+      document.write(num + " is Even<br>");
+    } else {
+      document.write(num + " is Odd<br>");
+    }
+  </script>
+</body>
+</html>
