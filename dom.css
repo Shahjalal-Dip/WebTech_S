@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 5px;
+  width: 180px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#student-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.student-item {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+.student-item span {
+  flex: 1;
+}
+
+.btn-edit {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  margin-left: 5px;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  margin-left: 5px;
+}
+
+.highlight {
+  background-color: yellow;
+  border: 2px solid orange;
+}
+
+.present {
+  background-color: #d4edda;
+}
